@@ -1,14 +1,15 @@
-<FristScreen>:
+<FirstScreen>:
     GridLayout:
-        cols: 1
-        Images:
-            source: 'files/Pizza.pnj'
-
-       TextInput:
+        cols: 3
+        Image:
+            source: 'files/Pizza.jpg'
+            size_hint_y: 0.8
+        TextInput:
+            size_hint_y: 0.1
         Button:
-               text: 'Search Image'
-
+            text: "Search Image"
+            size_hint_y: 0.1
 <RootWidget>:
-       FirstScreen:
-       id: first_screen
-       name: 'first_screen'
+    FirstScreen:
+        id: first_screen
+        name: 'first_screen'
